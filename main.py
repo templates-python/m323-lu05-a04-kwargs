@@ -8,7 +8,9 @@ def user_profile(**kwargs):
     Returns:
         str: A formatted string containing all the provided user data.
     """
-    ...
+    profile_str = ', '.join(f"{key.capitalize()}: {value}" for key, value in kwargs.items())
+    return profile_str
+
 
 if __name__ == '__main__':
     # Teste deine Funktion
