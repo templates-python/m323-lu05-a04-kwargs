@@ -10,6 +10,9 @@ def user_profile(**kwargs):
     """
     ...
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     # Teste deine Funktion
-    print(user_profile(name="Alice", age=30))  # Erwarteter Output: "Name: Alice, Age: 30"
+    print(
+        user_profile(name="Alice", age=30)
+    )  # Erwarteter Output: "Name: Alice, Age: 30"
