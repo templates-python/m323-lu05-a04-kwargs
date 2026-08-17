@@ -1,3 +1,8 @@
+"""Verwendung von **kwargs in Funktionen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu05/aufgaben/kwargs
+"""
+
 def user_profile(**kwargs):
     """
     Creates a formatted user profile string based on the provided keyword arguments.
